@@ -237,7 +237,7 @@ height: 100vh;
 }
 
 #services h1{
-    transform: translateX(-500px);
+  
     text-align: center;
     padding:var(--header-padding);
     color: #fff;
@@ -254,7 +254,6 @@ height: 100vh;
     flex-wrap: wrap;
     justify-content:center;
     align-items: center;
-    opacity: 0;
   }
   
   .service-container .glass {
