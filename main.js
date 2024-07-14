@@ -63,3 +63,19 @@ var TxtRotate = function(el, toRotate, period) {
 
 
 // ------------------------gsap------------------------------
+gsap.to("nav",{
+   position:"fixed",
+   top:"2px",
+   backgroundColor:"#000",
+    scrollTrigger:{
+        trigger:"nav",
+        scroller:"body",
+     
+        start:"top -10%",
+        end:"top -11%",
+    scrub:1,
+    }
+})
+
+
+//   -----------------------end of gsap-----------------------
